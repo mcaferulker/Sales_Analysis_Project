@@ -30,16 +30,6 @@ The monthly sales trends show how the units sold and revenue varied throughout t
 | ...            | ...              | ...           |
 | 2022-12        | 1118             | 12,413.18     |
 
-### Combined Visualization
-![Monthly Trends](images/monthly_trends_combined.png)
-
----
-
-## 3. Revenue Share by Category
-The pie chart below illustrates the revenue contribution of each category.
-
-![Revenue Share by Category](images/category_revenue_share.png)
-
 ---
 
 ## 4. Category-Wise Statistical Summary
@@ -53,29 +43,3 @@ The table below shows the average units sold and revenue for each category:
 | Home           | 23.56              | 244.84          |
 
 ---
-
-## Next Steps
-- Integrate this analysis into a GitHub repository for sharing.
-- Deploy an interactive version of this report on Hugging Face Spaces.
-
----
-
-## Project File Structure
-
-```
-project_directory/
-│
-├── data/
-│   └── sales_data.csv
-│
-├── images/
-│   ├── category_revenue.png
-│   ├── monthly_trends_combined.png
-│   └── category_revenue_share.png
-│
-├── analysis/
-│   └── sales_analysis.ipynb
-│
-├── README.md
-└── requirements.txt
-```
